@@ -1,9 +1,11 @@
 @import "mixins/vendor_prefix";
-@import "./reset";
-@import "messages";
-@import "./font-awesome";
 @import "config/colors.scss";
+@import "./reset";
+@import "./font-awesome";
 @import "config/font-size.scss";
 @import "modules/chat.scss";
+@import "modules/user";
+@import "modules/flash";
 @import "modules/sidebar.scss";
+@import "messages"
 
